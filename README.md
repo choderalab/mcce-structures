@@ -1,6 +1,6 @@
 # mcce-structures
 
-##Manifest
+## Manifest
 
 * `pdbs` - contain the schrodinger prepared structures for the protein-inhibitor pair or the apo kinase
 
