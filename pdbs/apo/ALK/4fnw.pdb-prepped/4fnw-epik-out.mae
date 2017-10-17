@@ -1,0 +1,226 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  1
+  1
+  W09IXVtDSDJdW0NIXShbT0hdKVtDSDJdW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzRmbnctZXBpay5tYWUnLCAnLW9tYWUnLCAnNGZudy1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzMyJywgJy1waCcsICc3LjQnLCAnLXBodCcsICcwLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+  1
+    0.0000 
+    0.0000 
+    0.0000 
+   -0.0000 
+  0
+  0
+  0
+   -0.0000 
+  0
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[14] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 9.338000 -8.976000 16.004000 1501 A 10 0.10863 0.10863 "GOL " " C1 " 6 1EE11E  1 39.94 2398 5045 1 <> <>
+  2 16 10.120000 -9.360000 17.142000 1501 A 70 -0.65409 -0.65409 "GOL " " O1 " 8 FF2E2E  1 31.69 2399 5046 1   0.649    0.950 
+  3 3 8.160000 -9.926000 15.845000 1501 A 10 0.16423 0.16423 "GOL " " C2 " 6 1EE11E  1 42.65 2400 5047 1 <> <>
+  4 16 7.702000 -10.341000 17.138000 1501 A 70 -0.64145 -0.64145 "GOL " " O2 " 8 FF2E2E  1 42.64 2401 5048 1  -0.636    0.950 
+  5 3 7.016000 -9.247000 15.095000 1501 A 10 0.10863 0.10863 "GOL " " C3 " 6 1EE11E  1 44.7 2402 5049 1 <> <>
+  6 16 6.555000 -10.119000 14.056000 1501 A 70 -0.65409 -0.65409 "GOL " " O3 " 8 FF2E2E  1 50.18 2403 5050 1   0.649    0.950 
+  7 41 8.963033 -7.951620 16.145578 1501 A 21 0.05303 0.05303 "GOL " " H11" 1 FFFFFF  <> <> <> 5051 <> <> <>
+  8 41 9.962643 -9.016047 15.099446 1501 A 21 0.05303 0.05303 "GOL " " H12" 1 FFFFFF  <> <> <> 5052 <> <> <>
+  9 42 11.016989 -8.783710 17.412740 1501 A 21 0.42424 0.42424 "GOL " " HO1" 1 FFFFFF  <> <> <> 5053 <>  14.764    0.530 
+  10 41 8.478351 -10.837504 15.317920 1501 A 21 0.07826 0.07826 "GOL " " H2 " 1 FFFFFF  <> <> <> 5054 <> <> <>
+  11 42 8.390182 -10.852122 17.827319 1501 A 21 0.42925 0.42925 "GOL " " HO2" 1 FFFFFF  <> <> <> 5055 <>  14.184    0.730 
+  12 41 6.193207 -9.036465 15.794062 1501 A 21 0.05303 0.05303 "GOL " " H31" 1 FFFFFF  <> <> <> 5056 <> <> <>
+  13 41 7.374082 -8.304282 14.655615 1501 A 21 0.05303 0.05303 "GOL " " H32" 1 FFFFFF  <> <> <> 5057 <> <> <>
+  14 42 5.728932 -9.805291 13.400867 1501 A 21 0.42424 0.42424 "GOL " " HO3" 1 FFFFFF  <> <> <> 5058 <>  14.764    0.530 
+  :::
+ } 
+ m_bond[13] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 7 1
+  4 1 8 1
+  5 2 9 1
+  6 3 4 1
+  7 3 5 1
+  8 3 10 1
+  9 4 11 1
+  10 5 6 1
+  11 5 12 1
+  12 5 13 1
+  13 6 14 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ i_ppw_het
+ s_epik_input
+ s_epik_cmdline
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  2
+  2
+  W09IXVtDSDJdW0NIXShbT0hdKVtDSDJdW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJzRmbnctZXBpay5tYWUnLCAnLW9tYWUnLCAnNGZudy1lcGlrLW91dC5tYWUnLCAnLW1zJywgJzMyJywgJy1waCcsICc3LjQnLCAnLXBodCcsICcwLjAnLCAnLWNnJywgJzAuMycsICcwLjMnLCAnLW1ldGFsX2JpbmRpbmcn 
+  1
+    0.0000 
+    0.0000 
+    0.0000 
+   -0.0000 
+  0
+  0
+  0
+   -0.0000 
+  0
+  2
+ m_depend[7] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[14] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 23.647000 23.587000 18.845000 1502 A 10 0.10863 0.10863 "GOL " " C1 " 6 1EE11E  1 30.73 2404 5059 2 <> <>
+  2 16 22.677000 22.782000 18.149000 1502 A 70 -0.65409 -0.65409 "GOL " " O1 " 8 FF2E2E  1 24.13 2405 5060 2   0.649    0.950 
+  3 3 23.215000 23.852000 20.286000 1502 A 10 0.16423 0.16423 "GOL " " C2 " 6 1EE11E  1 30.78 2406 5061 2 <> <>
+  4 16 23.027000 22.616000 20.953000 1502 A 70 -0.64145 -0.64145 "GOL " " O2 " 8 FF2E2E  1 24.59 2407 5062 2  -0.636    0.950 
+  5 3 24.253000 24.622000 21.095000 1502 A 10 0.10863 0.10863 "GOL " " C3 " 6 1EE11E  1 34.61 2408 5063 2 <> <>
+  6 16 24.654000 25.837000 20.455000 1502 A 70 -0.65409 -0.65409 "GOL " " O3 " 8 FF2E2E  1 35.72 2409 5064 2   0.649    0.950 
+  7 41 24.614626 23.064046 18.859823 1502 A 21 0.05303 0.05303 "GOL " " H11" 1 FFFFFF  <> <> <> 5065 <> <> <>
+  8 41 23.759814 24.552351 18.329859 1502 A 21 0.05303 0.05303 "GOL " " H12" 1 FFFFFF  <> <> <> 5066 <> <> <>
+  9 42 22.845134 22.504313 17.097991 1502 A 21 0.42424 0.42424 "GOL " " HO1" 1 FFFFFF  <> <> <> 5067 <>  14.764    0.530 
+  10 41 22.259697 24.396716 20.259919 1502 A 21 0.07826 0.07826 "GOL " " H2 " 1 FFFFFF  <> <> <> 5068 <> <> <>
+  11 42 22.315281 21.878326 20.553884 1502 A 21 0.42925 0.42925 "GOL " " HO2" 1 FFFFFF  <> <> <> 5069 <>  14.184    0.730 
+  12 41 23.833770 24.879493 22.078841 1502 A 21 0.05303 0.05303 "GOL " " H31" 1 FFFFFF  <> <> <> 5070 <> <> <>
+  13 41 25.148990 23.998339 21.230088 1502 A 21 0.05303 0.05303 "GOL " " H32" 1 FFFFFF  <> <> <> 5071 <> <> <>
+  14 42 25.399526 26.489967 20.932311 1502 A 21 0.42424 0.42424 "GOL " " HO3" 1 FFFFFF  <> <> <> 5072 <>  14.764    0.530 
+  :::
+ } 
+ m_bond[13] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 7 1
+  4 1 8 1
+  5 2 9 1
+  6 3 4 1
+  7 3 5 1
+  8 3 10 1
+  9 4 11 1
+  10 5 6 1
+  11 5 12 1
+  12 5 13 1
+  13 6 14 1
+  :::
+ } 
+} 
+

@@ -1,0 +1,144 @@
+
+** Heavy-atom coordinates will be fixed: maxlevel set to 0
+  **
+  ** Beginning refinement level 0
+  **
+
+%IMPACT-I (openwt): Request to open FORMATTED file 2YJS-impref_ref0.out on unit   2
+ Entering IMPACT execution environment 
+ Date: Tuesday, October 17 2017, at 12:54:31 EDT
+ Impact version 76016
+ mmshare version        39016
+ Copyright (c) Schrodinger, LLC.
+ All Rights Reserved.
+
+ Host: Darwin lski1985 14.5.0 Darwin Kernel Version 14.5.0: Sun Jun  4 21:40:08 PDT 2017; root:xnu-2782.70.3~1/RELEASE_X86_64 x86_64
+ Job Name: 2YJS-impref_ref0
+ SCHRODINGER  directory: /opt/schrodinger/suites2017-3
+ IMPACT_EXEC  directory: /opt/schrodinger/suites2017-3/impact-v7.6/bin/Darwin-x86_64
+ MMSHARE_EXEC directory: /opt/schrodinger/suites2017-3/mmshare-v3.9/bin/Darwin-x86_64
+
+ Clock-based global random seed:     1508259271
+%IMPACT-I(foldmain): calling OPLS3 atomtyping ...
+%IMPACT-I(foldmain): finished parameter assignment
+ PARM read from file "paramstd.dat"
+ Parameter obtained from atomtyping
+      Current coord. are written to file: "2YJS-impref.init_coord.rst"
+      Box dimensions not written
+
+
+ Total number of atoms  =  5464
+ 
+ Neighbor List Cutoff Settings
+ ==================================
+ Cutoff radius:   10.0000000000000     
+ Update frequency: every           10  steps
+ Species   1 : Neighbors are calculated on a per residue basis
+ Species   1 : Cutoff by inter-atomic distances
+ 
+ Step number:          0         Non-bonded count:  1306166
+ E-pot        RMS grad     Max grad    
+  2.08824E+09  6.29257E+08  5.58207E+10
+ Step number:         10         Non-bonded count:  1306166
+ -1.66313E+04  3.14188E+00  1.47993E+02
+ Step number:         20         Non-bonded count:  1306166
+ -1.67520E+04  1.49707E+00  8.60051E+01
+ Step number:         30         Non-bonded count:  1306166
+ -1.67982E+04  9.58919E-01  4.17659E+01
+ Step number:         40         Non-bonded count:  1306166
+ -1.68223E+04  6.69731E-01  3.35948E+01
+ Step number:         50         Non-bonded count:  1306166
+ -1.68312E+04  5.86296E-01  3.60892E+01
+ Step number:         60         Non-bonded count:  1306166
+ -1.68366E+04  3.84261E-01  2.19618E+01
+ Step number:         70         Non-bonded count:  1306166
+ -1.68432E+04  4.58542E-01  3.39827E+01
+ Step number:         80         Non-bonded count:  1306166
+ -1.68463E+04  3.16296E-01  1.83646E+01
+ Step number:         90         Non-bonded count:  1306166
+ -1.68486E+04  3.08428E-01  2.22367E+01
+ Step number:        100         Non-bonded count:  1306166
+ -1.68508E+04  2.94000E-01  1.90111E+01
+ Step number:        100         Non-bonded count:  1306166
+ -1.68508E+04  2.94000E-01  1.90111E+01
+      Current coord. are written to file: "2YJS-impref.min0_coord.rst"
+      Box dimensions not written
+      Current coordinates are read from file: "2YJS-impref.init_coord.rst"
+      Box dimensions not read
+          read from "2YJS-impref.init_coord.rst"
+  
+ Energy and Force Generation Info: 
+ --------------------------------- 
+ Number of E&F called:     281
+ PARM read from file "paramstd.dat"
+ Parameter obtained from atomtyping
+      Current coordinates are read from file: "2YJS-impref.min0_coord.rst"
+      Box dimensions not read
+          read from "2YJS-impref.min0_coord.rst"
+
+
+ Total number of atoms  =  5464
+ 
+ Neighbor List Cutoff Settings
+ ==================================
+ Cutoff radius:   10.0000000000000     
+ Update frequency: every           10  steps
+ Species   1 : Neighbors are calculated on a per residue basis
+ Species   1 : Cutoff by inter-atomic distances
+ 
+ Step number:          0         Non-bonded count:  1306166
+ E-pot        RMS grad     Max grad    
+ -1.61725E+04  2.32544E+00  2.29991E+01
+ Step number:         10         Non-bonded count:  1306166
+ -1.66200E+04  3.00426E+00  1.97872E+02
+ Step number:         20         Non-bonded count:  1306166
+ -1.66651E+04  1.18795E+00  7.35752E+01
+ Step number:         30         Non-bonded count:  1306166
+ -1.66776E+04  7.84773E-01  5.05346E+01
+ Step number:         40         Non-bonded count:  1306166
+ -1.66848E+04  5.85732E-01  3.54577E+01
+ Step number:         50         Non-bonded count:  1306166
+ -1.66890E+04  4.68755E-01  3.33196E+01
+ Step number:         60         Non-bonded count:  1306166
+ -1.66914E+04  2.45109E-01  1.61928E+01
+ Step number:         70         Non-bonded count:  1306166
+ -1.66928E+04  2.40266E-01  1.82111E+01
+ Step number:         80         Non-bonded count:  1306166
+ -1.66937E+04  1.55441E-01  1.13661E+01
+ Step number:         90         Non-bonded count:  1306166
+ -1.66943E+04  1.23913E-01  9.16888E+00
+ Step number:        100         Non-bonded count:  1306166
+ -1.66946E+04  9.53827E-02  5.37316E+00
+ Step number:        100         Non-bonded count:  1306166
+ -1.66946E+04  9.53827E-02  5.37316E+00
+  
+ Energy and Force Generation Info: 
+ --------------------------------- 
+ Number of E&F called:     558
+
+
+Final Energy Reports:
+------------------------------------
+ Total Energy of the system...... -1.66946E+04 kcal/mol
+ Total Potential Energy.......... -1.66946E+04 kcal/mol
+ Total Kinetic Energy............  0.00000E+00 kcal/mol
+ Temperature of the system.......        0.000 K
+ Bond Stretch Energy.............  4.87719E+02 kcal/mol
+ Angle Bending Energy............  5.24242E+02 kcal/mol
+ Torsion Angle Energy............  5.01566E+01 kcal/mol
+ Restraining Energy for Torsions.  0.00000E+00 kcal/mol
+ 1,4 Lennard Jones Energy........  3.93251E+02 kcal/mol
+ 1,4 Electrostatic Energy........ -3.89094E+02 kcal/mol
+ Lennard Jones Energy............ -5.60506E+02 kcal/mol
+ Electrostatic Energy............ -1.72004E+04 kcal/mol
+ H-bond Energy...................  0.00000E+00 kcal/mol
+ 
+ Exiting IMPACT execution environment 
+ Date: Tuesday, October 17 2017, at 12:54:57 EDT
+%IMPACT-I (timit): Total CPU time =      25.03 seconds (   0.4 minutes)
+Total elapsed time = 28 seconds
+  ** Completed refinement level 0      rmsd =  0.022
+
+** Refinement finished. Final level: 0
+
+** The refined complex file is 2YJS-impref_ref.mae.
